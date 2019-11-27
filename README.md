@@ -58,6 +58,8 @@ If you have access to the [GitHub actions beta](https://github.com/features/acti
 
          - name: Build
            uses: framer/bridge@master
+           env:
+             FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
            with:
              args: build design-system.framerfx
 
