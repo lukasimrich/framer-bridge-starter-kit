@@ -1,17 +1,21 @@
 {
-  "main": "dist/index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^16.4.16",
-    "framer": "^0.10 || ^1"
-  },
-  "peerDependencies": {
-    "framer": "^1.0",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
-  },
-  "version": "1.0.0",
-  "dependencies": {
-    "styled-components": "^4.2.0"
-  }
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^1.0 || ^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"version": "1.0.0",
+	"dependencies": {
+		"@framer/framer.default": "^1.71.0",
+		"styled-components": "^4.2.0"
+	},
+	"framer": {
+		"id": "415cedd7-16c0-41a0-8c2e-63e32a2b546d"
+	},
+	"author": "Lukas Imrich"
 }
